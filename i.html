@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <style>
+      .pricing-plan {
+    position: relative;
+    width: 260px;
+    padding: 40px 0;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0px 1px 2px 0px rgb(67 74 84 / 20%);
+    overflow: hidden;
+}
+.pricing-plan:first-child:before {
+    background-image: linear-gradient(90deg, #BEDE2F 0%, #30C85F 100%);
+}
+.pricing-plan1:before {
+    background-image: linear-gradient(90deg, #2f49de 0%, #30C85F 100%);
+}
+.pricing-plan:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6px;
+}
+.pricing-plan__name {
+    font-size: 32px;
+    margin: 0 0 25px 0;
+}
+.pricing-plan__name, .pricing-plan__price {
+    font-weight: 200;
+}
+.pricing-plan:first-child .pricing-plan__price {
+    color: #65C163;
+}
+
+.pricing-plan__price {
+    font-size: 60px;
+    margin: 0 0 20px 0;
+}
+.pricing-plan__name, .pricing-plan__price {
+    font-weight: 200;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.pricing-plan__feature-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 2.5;
+    color: #656D78;
+}
+ol, ul, dl {
+    margin: 0;
+    list-style: none;
+}
+kullanıcı aracısı stil sayfası
+ul {
+    list-style-type: disc;
+}
+.pricing-plan__feature > a {
+    display: block;
+    background: #f27a1a;
+    width:auto;
+    text-align: center;
+    margin: auto;
+    border-radius: 25px !important;
+    margin-top: 20px;
+    color: #fff;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+.pricing-plan__feature-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    margin-top: 25px;
+    line-height: 2.5;
+    color: #656D78;
+}
+@media screen and (max-width: 800px){
+.pricing-plan__name {
+    font-size: 20px;
+}
+.pricing-plan{
+  font-size: 20px;
+  width: auto;
+  margin: 0;
+  padding: 0;
+      }
+      .col-3{
+        margin: 0 !important;
+        padding: 0 !important;
+      }
+      .pricing-plan__price {
+    font-size: 40px;}
+    .cizikli{
+      text-decoration: line-through;
+      font-size: 20px;
+    }
+    .pricing-plan__feature{
+      font-size: 10px;
+    }
+    h3{
+      font-size: 20px !important;
+    }
+}
+ 
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <div class="accordion" id="accordionExample">
+    
+    
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            <h3 id="h-xml-nedir">XML Nedir?</h3>
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body"><p><strong>XML</strong>, hem sistemler hem de insanlar tarafından okunabilen bir veri iletişim dilidir. Veri saklamak ve sistemler arasına bilgi aktarımını gerçekleştirmek için kullanılır. Bu teknoloji sayesinde kompleks ve detaylı veriler bir kaynaktan başka kaynağa kolayca aktarılabilir.</p>
+    <p>Perakendeciler, <strong>XML </strong>bilgilerini almak için tedarikçilere belirli bir ücret öder. Bunun yanında perakendeciler, her satış yaptığı zaman tedarikçilere hizmet bedeli ve ürün fiyatı ödemekle sorumludur.</p>
+    <p>Bakiye ve ön ödeme sistemi ile çalışan <strong>XML</strong>tedarikçileri de bulunur. Her ne kadar ücretsiz<strong> XML bayilik</strong> verdiğini iddia eden firmalar bulunsa da, bu tarz firmaların genellikle komisyon ve hizmet ücretleri çok daha fazladır.</p>
+    <p>Bu işleme <strong>XML bayilik, XML bayiliği, XML dropshipping, XML stoksuz e-ticaret</strong> gibi farklı isimler verilir. <strong>XML bayiliği</strong> temelinde <strong>XML entegrasyonu</strong> ile çalışır.</p>
+          </div>
+        </div>
+      </div>
+    
+    
+    
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFour">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+            <h3>XML Entegrasyonu Nedir?</h3>
+          </button>
+        </h2>
+        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p><strong>XML enterasyonu</strong>, bir <strong>e-ticaret</strong> sitesine veya tedarikçisine ait verilerin <strong>XML</strong> formatına çevirilerek başka bir<strong> e-ticaret</strong> sitesine veya pazaryeri mağazasına aktarılmasını sağlayan entegrasyona verilen isimdir. <strong>XML entegrasyonu</strong> sayesinde ürün listeleri, kategoriler, ürün açıklamaları gibi birçok detay bir <strong>e-ticaret</strong> sitesinden diğerine aktarılabilir. Ürün yükleme ve benzeri işlemler hızlandığı için <strong>stoksuz e-ticaret</strong> yapmaya başlamak kolaylaşır.</p>
+          </div>
+        </div>
+      </div>
+    
+      
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            <h3>XML Bayiliği Avantajları Nelerdir?</h3>
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p><strong>XML bayiliği e-ticaret</strong> yapmak isteyen insanlar için birçok farklı avantaj sağlayabilir. Eğer bu <strong>e-ticaret</strong> ve <strong>dropshipping</strong> modelini tercih edip etmemek arasında kaldıysanız, aşağıdaki avantajlar listesi size yardımcı olabilir.</p>
+        </div>
+      </div>
+    </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           <h3> XML Bayiliği Yasal mı?</h3>
+          </button>
+        </h2>
+        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>Evet, sattığınız ürünler, şirket modeliniz, vergi gibi diğer konularda usulsüzlük yapmadığınız sürece <strong>XML bayiliği</strong> yasaldır.</p>
+          </div>
+
+        </div>
+        </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingFive">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+            <h3>Avantajları Nelerdir?</h3>
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+          <p> Stok için bütçe ayırmanıza gerek kalmaz, tüm ürünlerimizi internet sitenizde, sosyal medya hesaplarınızda veya tüm Pazar yerlerinde satışa sunabilirsiniz.</p><hr class="bottomline"> <p>-Ürün karlılığını kendiniz belirlersiniz. Dilediğiniz fiyattan satarak daha fazla kazanç elde edebilirsiniz.</p><hr class="bottomline"> <p>-XML Bağlantısı ile tüm ürünlerimizi kendi internet sitenizle veya tüm pazar yerleriyle entegre edebilirsiniz. (ürünlerin adetleri, fiyatları, özellikleri vs. herşey dahil) otomatik olarak aktarılır, güncellenir.</p><hr class="bottomline"> <p>-Aldığınız ürünler için 14 gün koşulsuz ve ücretsiz iade hakkınız vardır.</p><hr class="bottomline"> <p>-09:30 – 18:30 saatleri arasında tüm sorularınız ve sorunlarınız için bayi destek hattımız sizlere hizmet verecektir.</p><hr class="bottomline"> <p>-Farklı firmaların ürünlerini de satmaya devam edebilirsiniz.</p><hr class="bottomline"> <p>-Tüm siparişleriniz 48 saat içerisinde kargoya teslim edilir.</p><hr class="bottomline"> <p>-Siparişlerinizde Haydigiy’e ait herhangi bir reklam/tanıtım unsuru bulunmaz, müşterileriniz sadece sizinle iletişim halinde kalırlar.</p><hr class="bottomline"> <p>-Bayilikten dilediğiniz zaman koşulsuz ayrılabilirsiniz. Taahhüt veya sözleşme yoktur.</p><hr class="bottomline"> <p class="hgbbottombaslik">Koşullar</p><p>-Drop-Shipping bayiliği pazar yerlerinde satış yapan veya kendi internet sitesinde serbest fiyatla satış yapmak isteyen bayiler için geçerlidir.</p><hr class="bottomline"> <p>-Kendi internet sitenizde serbest fiyatla satış yapmak isterseniz, siparişleri kendi adresinize isteyip müşterinize kargo gönderimini kendiniz yapmanız gerekir.</p><hr class="bottomline"> <p>-Pazar yerlerinde satış yapıyorsanız böyle bir gereklilik yoktur. Sipariş Süreci sekmesinden pazar yerleri satışlarınız için nasıl sipariş vereceğinizi inceleyebilirsiniz.</p><hr class="bottomline"> <p class="hgbbottombaslik">Koşullar</p><p>-Drop-Shipping Satış Bayisi olmanız için hiçbir koşul, sözleşme, taahhüt yoktur. Sizler için 1 aylık, 3 aylık, 6 aylık ve 12 aylık olmak üzere bayilik paketleri hazırladık. Bu paketleri aşağıdaki 'DropShipping Bayili Ücretleri' sekmesinden inceleyebilirsiniz.</p>
+        </div>
+      </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSix">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+            <h3>Planlar</h3>
+          </button>
+        </h2>
+        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="row pricing-plan-list">
+              <div class="col-3">
+                <div class="pricing-plan">
+                  <h2 class="pricing-plan__name">1 Aylık</h2>
+                  <h1 class="pricing-plan__price">
+                    <span class="cizikli">350 TL</span>
+                  </h1>
+                  <h1 class="pricing-plan__price">250 TL</h1>
+                  <ul class="pricing-plan__feature-list">
+                    <li class="pricing-plan__feature">2800++ Renk Ürün</li>
+                    <li class="pricing-plan__feature">120.000++ Aktif Envanter</li>
+                    <li class="pricing-plan__feature">XML Hizmeti</li>
+                    <li class="pricing-plan__feature">XML Teknik Destek</li>
+                    <li class="pricing-plan__feature">48 Saatte Kargo</li>
+                    <li class="pricing-plan__feature">
+                      <a href="https://api.whatsapp.com/send/?phone=905459464675&amp;text&amp;app_absent=0">Detaylı Bilgi Al</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="pricing-plan">
+                  <h2 class="pricing-plan__name">3 Aylık</h2>
+                  <h1 class="pricing-plan__price">
+                    <span class="cizikli">750 TL</span>
+                  </h1>
+                  <h1 class="pricing-plan__price">600 TL</h1>
+                  <ul class="pricing-plan__feature-list">
+                    <li class="pricing-plan__feature">2800++ Renk Ürün</li>
+                    <li class="pricing-plan__feature">120.000++ Aktif Envanter</li>
+                    <li class="pricing-plan__feature">XML Hizmeti</li>
+                    <li class="pricing-plan__feature">XML Teknik Destek</li>
+                    <li class="pricing-plan__feature">48 Saatte Kargo</li>
+                    <li class="pricing-plan__feature">
+                      <a href="https://api.whatsapp.com/send/?phone=905459464675&amp;text&amp;app_absent=0">Detaylı Bilgi Al</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="pricing-plan">
+                  <h2 class="pricing-plan__name">6 Aylık</h2>
+                  <h1 class="pricing-plan__price">
+                    <span class="cizikli">1500 TL</span>
+                  </h1>
+                  <h1 class="pricing-plan__price">1200 TL</h1>
+                  <ul class="pricing-plan__feature-list">
+                    <li class="pricing-plan__feature">2800++ Renk Ürün</li>
+                    <li class="pricing-plan__feature">120.000++ Aktif Envanter</li>
+                    <li class="pricing-plan__feature">XML Hizmeti</li>
+                    <li class="pricing-plan__feature">XML Teknik Destek</li>
+                    <li class="pricing-plan__feature">48 Saatte Kargo</li>
+                    <li class="pricing-plan__feature">
+                      <a href="https://api.whatsapp.com/send/?phone=905459464675&amp;text&amp;app_absent=0">Detaylı Bilgi Al</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="pricing-plan pricing-plan--featured">
+                  <h2 class="pricing-plan__name animateprice">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>12 Aylık
+                  </h2>
+                  <h1 class="pricing-plan__price">
+                    <span class="cizikli">3000 TL</span>
+                  </h1>
+                  <h1 class="pricing-plan__price" style="font-weight:600;">2000 TL</h1>
+                  <p style="font-size:15px; margin:0; color:#8d17e7">En Avantajlı Fiyat</p>
+                  <ul class="pricing-plan__feature-list">
+                    <li class="pricing-plan__feature">2800++ Renk Ürün</li>
+                    <li class="pricing-plan__feature">120.000++ Aktif Envanter</li>
+                    <li class="pricing-plan__feature">XML Hizmeti</li>
+                    <li class="pricing-plan__feature">XML Teknik Destek</li>
+                    <li class="pricing-plan__feature">48 Saatte Kargo</li>
+                    <li class="pricing-plan__feature">
+                      <a href="https://api.whatsapp.com/send/?phone=+905459464675&amp;text&amp;app_absent=0">Detaylı Bilgi Al</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="">
+                <p style="font-style:italic;color:red;"> - Bayilik Ücretlerinde İade Yoktur</p>
+                <p style="font-style:italic;color:red;"> - Fiyatlar KDV Hariçtir.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingSeven">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+            <h3>Görsel ve Ürün Paylaşımı</h3>
+          </button>
+        </h2>
+        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>  -   İnternet sitenizdeki tüm ürünleri ve görselleri kullanarak sosyal medya hesaplarınızda kendi paylaşımlarınızı yapabilirsiniz. Tüm ürünlerimiz XML bağlantısı ile sitenize otomatik olarak aktarılacaktır. Ayrıca ürün görseli gönderilmeyecektir. </p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingEight">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+            <h3>Sipariş Süreci</h3>
+          </button>
+        </h2>
+        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p></p> Pazar yerlerinde sattığınız ürünlerin siparişini modaymis.com'dan kredi kartınız ile peşin ödeme yaparak oluşturmanız gerekmektedir.</p><p>Sattığınız ürünleri sepete ekleyin.</p><p>Sepette “Pazar Yeri” alanında satış yaptığınız Pazar yerini seçin.</p><p>Kampanya Kodu alanına 'Kargo Gönderim Kodunuzu' yazın.</p><p>Kargo firmasını seçin.</p><p>Adres alanına 'Dropshipping' yazıp geçebilirsiniz.</p><p>Kredi kartı ile ödemenizi gerçekleştirin.</p><p>Siparişiniz tamamlandı.</p><p>Bu aşamadan sonra kargonuz hazırlanır ve seçtiğiniz kargo firmasına teslim edilir.</p><p>Siparişinizde bize ait hiçbir reklam veya pazarlama unsuru bulunmaz.</p><p>Drop Shipping ile çalışan bayilerimiz için Kargo Ücreti veya Kapıda Ödeme Bedeli yoktur. Sadece ürün bedelini ödersiniz. Kargo durumları Pazar yeri ile sizin aranızdadır.</p><p>Oluşturduğunuz siparişler en geç 2 iş günü içerisinde tarafımızca hazırlanıp seçtiğiniz kargo firmasına teslim edilir.</p>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingnine">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+            <h3>Kazanç – Hakediş</h3>
+          </button>
+        </h2>
+        <div id="collapsenine" class="accordion-collapse collapse" aria-labelledby="headingnine" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <p>
+            -    Drop-Shipping modelinde hesap yapılmaz. <br>
+
+            -    Müşterilerinize sattığınız ürünleri haydigiy fiyatları ile kredi kartınızla peşin satın alırsınız.<br>
+         
+            -    Ürünlere ekleyeceğiniz kârı siz belirlersiniz ve dilediğiniz fiyattan satarsınız.<br>
+         
+            -    Hesap satış yaptığınız pazar yeri ile sizin aranızda gerçekleşir.  <br>   </p>
+          </div>
+      </div>
+    </div>
+  </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+  
+  </body>
+</html>
